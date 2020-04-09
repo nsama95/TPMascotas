@@ -1,0 +1,30 @@
+<div></div>
+<div *ngIf="mascota != null" align="center" class="div">
+    <div *ngIf="mascota.tipo == 'perro'" class="perroColor">
+        <img src={{mascota.src}} alt="" width="250" height="150">
+    <h2>
+        Nombre: {{mascota.nombre}} <br>
+        Tipo: {{mascota.tipo}}
+
+    </h2>
+    </div>
+
+    <div *ngIf="mascota.tipo == 'gato'" class="gatoColor">
+        <img src={{mascota.src}} alt="" width="250" height="150">
+    <h2>
+        Nombre: {{mascota.nombre}} <br>
+        Tipo: {{mascota.tipo}}
+
+    </h2>
+    </div>
+
+    <div *ngIf="mascota.tipo == 'pez'" class="pezColor">
+        <img src={{mascota.src}} alt="" width="250" height="150">
+    <h2>
+        Nombre: {{mascota.nombre}} <br>
+        Tipo: {{mascota.tipo}}
+
+    </h2>
+    </div>
+  
+</div>

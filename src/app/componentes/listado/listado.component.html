@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+   
+   <app-cargar_mascota
+    (turno) = "cargarLista($event)"
+    ></app-cargar_mascota>
+
+    <div *ngIf="datos != null">
+        <app-mascota
+        [mascota] = "datos"
+        ></app-mascota>
+    </div>
+    
+    
+    <div align="center"  >
+        <div *ngFor="let mascota of mascotas">
+
+            <div *ngIf="mascota.tipo == 'perro'" class="perroColor">
+            <br>
+            <h2>Nombre: {{mascota.nombre}} </h2>
+            <div *ngIf= "mascota.nombre != null">
+                <input type="button" value="Ver detalles" (click)="verDetalle(mascota)" class="boton">
+      
+            </div>
+        </div>
+        <div *ngIf="mascota.tipo == 'gato'" class="gatoColor">
+            <br>
+            <h2>Nombre: {{mascota.nombre}} </h2>
+            <div *ngIf= "mascota.nombre != null">
+                <input type="button" value="Ver detalles" (click)="verDetalle(mascota)" class="boton">
+            </div>
+        </div>
+        <div *ngIf="mascota.tipo == 'pez'" class="pezColor">
+            <br>
+            <h2>Nombre: {{mascota.nombre}} </h2>
+            <div *ngIf= "mascota.nombre != null">
+                <input type="button" value="Ver detalles" (click)="verDetalle(mascota)" class="boton">
+            </div>
+        </div>
+        </div>
+        
+
+    </div>
+</body>
+</html>

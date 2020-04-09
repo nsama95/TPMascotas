@@ -1,0 +1,25 @@
+.perroColor
+{
+    color:#00ff15;
+}
+
+.gatoColor
+{
+    color:#ff0000;
+}
+
+.pezColor
+{
+    color:#003cff;
+}
+
+.div{
+
+    margin: 0 auto;
+    color:#dad6d6;
+    background-color: rgba(26, 21, 21, 0.521);
+ 
+    width: 400px;
+    height: 250px;
+    border-radius: 50px;
+  }

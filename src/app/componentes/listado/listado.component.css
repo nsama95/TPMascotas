@@ -1,0 +1,62 @@
+body{
+
+    margin: 0 auto;
+    color:#dad6d6;
+    background-color: rgba(26, 21, 21, 0.521);
+ 
+    width: 400px;
+    height: 300px;
+    border-radius: 50px;
+  }
+
+.perroColor
+{
+    margin: 0 auto;
+
+    background-color: rgba(26, 21, 21, 0.521);
+ 
+    width: 250px;
+    height: 150px;
+    border-radius: 50px;
+    color:rgb(26, 212, 26);
+}
+
+.gatoColor
+{
+    margin: 0 auto;
+
+    background-color: rgba(26, 21, 21, 0.521);
+ 
+    width: 250px;
+    height: 150px;
+    border-radius: 50px;
+    color:#d80000;
+}
+
+.pezColor
+{
+    margin: 0 auto;
+
+    background-color: rgba(26, 21, 21, 0.521);
+ 
+    width: 250px;
+    height: 150px;
+    border-radius: 50px;
+    color:#0028aa;
+}
+
+.boton {
+    border: 1px solid black; 
+    padding: 10px; 
+    margin:4px;
+    background-color:crimson;
+    color:white; 
+    text-decoration: none; 
+    text-transform: uppercase; 
+    font-family:'Lucida Sans Unicode';
+    border-radius: 40px; 
+}
+.div{
+
+    
+  }

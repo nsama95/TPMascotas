@@ -1,0 +1,27 @@
+table
+{
+    font-family:'Lucida Sans Unicode';
+    color: white; 
+}
+
+.btn {
+    border: 1px solid black; 
+    padding: 10px; 
+    margin:4px;
+    
+    background-color: crimson; 
+    color: white; 
+    text-transform: uppercase; 
+    font-family:'Lucida Sans Unicode';
+    border-radius: 40px; 
+    }
+
+.txtNombre
+{
+  border: 1px solid black;
+  padding: 6px;
+  background-color: crimson;
+
+  border-radius: 50px;
+  font-family:'Lucida Sans Unicode';
+}

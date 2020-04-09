@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <br>
+    <br>
+    <table align="center">
+        <tr>
+            <label for="">Nombre:</label>
+        </tr>
+        <tr>
+            <input type="text" name="nombre" id="nombre" [(ngModel)]="nombre" >
+        </tr>
+        <tr>
+            <label for="">Imagen:</label>
+        </tr>
+        <tr>
+            <input type="text" name="imagen" id="imagen" [(ngModel)]="imagen" >
+        </tr>
+       <tr>
+        <label for="">Tipo:</label>
+       </tr>
+        <tr>
+            <select name="select" [(ngModel)]="tipo">
+                <option value="perro">Perro</option> 
+                <option value="gato" selected>Gato</option>
+                <option value="pez">Pez</option>
+              </select>
+        </tr>    
+        <th>
+            <br>
+            
+            <input type="button" value="Enviar" class="btn" (click)="enviarMascota($event)">
+        </th>
+    </table>
+    <br>
+</body>
+</html>
